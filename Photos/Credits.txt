@@ -6,6 +6,18 @@ Author: Jkafader
 Link: https://commons.wikimedia.org/wiki/File:Coffee_Beans_in_a_Cooling_Tray.JPG
 License: https://creativecommons.org/licenses/by-sa/3.0/deed.en
 
+CiudadBarrioscoffeepicker.jpg
+
+Author: Rainforest Alliance Guatemala
+Link: https://commons.wikimedia.org/wiki/File:CiudadBarrioscoffeepicker.jpg
+License: https://creativecommons.org/licenses/by-sa/3.0/deed.en
+
+Pouring.gif
+
+Author: Gregory Berns-Leone
+Link:
+License:
+
 drip-supplies.png
 
 Author: Gregory Berns-Leone
@@ -25,6 +37,12 @@ Link:
 License:
 
 moka-pot-supplies.png
+
+Author: Gregory Berns-Leone
+Link:
+License:
+
+GregDrinksCoffee.png
 
 Author: Gregory Berns-Leone
 Link:
