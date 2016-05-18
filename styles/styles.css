@@ -20,7 +20,7 @@ li {
 }
 
 a {
-  color: #33386b;
+  color: #897260 /* #33386b */;
 }
 
 .home {
@@ -135,12 +135,45 @@ main p {
 }
 
 main h2 {
-  padding-bottom: 5px;
+  margin-bottom: 10px;
   font-size: 20pt;
 
 }
 
 main h3 {
-  padding-bottom: 5px;
+  margin-bottom: 5px;
   font-size: 16pt;
+}
+
+main ol, main ul {
+  margin-bottom: 10px;
+}
+
+main li {
+  font-size: 14pt;
+}
+
+main table {
+  border-width: 1px;
+  border-color: #33251e;
+  border-collapse: collapse;
+}
+
+main th {
+  border-width: 1px;
+  padding: 10px;
+  border-style: solid;
+  background-color: #897260;
+  font-size: 14pt;
+}
+
+main td {
+  border-width: 1px;
+  padding: 10px;
+  border-style: solid;
+  font-size: 12pt;
+}
+
+main td:nth-child(1) {
+  text-align: center;
 }
