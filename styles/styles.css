@@ -11,6 +11,10 @@ a {
   color: #33386b;
 }
 
+.home {
+  color: #33251e;
+}
+
 img {
   width: 100%;
 }
@@ -82,10 +86,6 @@ footer > p {
   font-family: "Futura";
   font-size: 10pt;
   color: #33251e;
-}
-
-a {
-  color: ;
 }
 
 nav {
