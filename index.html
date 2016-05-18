@@ -6,23 +6,33 @@
   <link rel="stylesheet" type="text/css" href="./styles/styles.css">
 </head>
 <body>
-  <header>
-    <H1>Greg's Coffee Site</H1>
-    <p>Information about coffee brewing and roasting.</p>
-  </header>
-  <nav>
-    <a href="brew-methods.html">Brew Methods</a>
-    <a href="production.html">Coffee Production</a>
-    <a href="roasting.html">Roasting Coffee</a>
-  </nav>
-  <div>
-    <h2>Welcome</h2>
-    <p>This is a site by a coffee lover about brewing and roasting coffee, as well as a little background on coffee production. Please take a look around!</p>
-    <p style="text-align: center;"><img src="Photos/GregDrinksCoffee.png" alt="Greg Drinking Coffee" style="width: 100%;"><br>Greg drinks coffee on his back porch</p>
+  <div id="container">
+    <header>
+      <a class="home" href="index.html">
+        <div>
+          <img id="icon" src="Photos/CoffeeCupIcon.png">
+          <h1>Greg's Coffee Site</h1>
+          <p>Information about coffee brewing and roasting.</p>
+        </div>
+      </a>
+    </header>
+    <nav>
+      <a class="navigation" href="brew-methods.html">Brew Methods</a>
+      <a class="navigation" href="production.html">Coffee Production</a>
+      <a class="navigation" href="roasting.html">Roasting Coffee</a>
+    </nav>
+    <main class="wrapper">
+      <h2>Welcome</h2>
+      <p>This is a site by a coffee lover about brewing and roasting coffee, as well as a little background on coffee production. Please take a look around!</p>
+      <div class="wrapper">
+        <img src="Photos/GregDrinksCoffee.png" alt="Greg Drinking Coffee">
+        <p class="caption">Greg drinks coffee on his back porch</p>
+      </div>
+    </main>
+    <footer>
+      <p>Written and maintained by Gregory Berns-Leone.</p>
+      <p><a id="email" href="mailto:gberns.l@gmail.com">Email me</a></p>
+    </footer>
   </div>
-  <footer>
-    <p>Written and maintained by Gregory Berns-Leone.</p>
-    <p><a href="mailto:gberns.l@gmail.com">Email me</a></p>
-  </footer>
 </body>
 </html>

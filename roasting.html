@@ -5,71 +5,81 @@
   <link rel="stylesheet" type="text/css" href="./styles/styles.css">
 </head>
 <body>
-  <header>
-    <H1><a href="index.html">Greg's Coffee Site</a></H1>
-    <p>Information about coffee brewing and roasting.</p>
-  </header>
-  <div>
-    <h2>Coffee Roasting</h2>
-    <div>
-      <p><img src="Photos/Coffee_Beans_in_a_Cooling_Tray.JPG" alt="Roasting Coffee" width="500"><br>Photo of coffee beans that are just finished roasting by <a href="https://commons.wikimedia.org/wiki/File:Coffee_Beans_in_a_Cooling_Tray.JPG">Jkafader</a>. <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">License</a></p>
-      <p>There are lots of ways to roast coffee, but all involve heating green beans until the sugars caramelize and potentially begin to burn. You can buy a commercial machine that is purpose-built for roasting or can do it in a hot air popcorn popper or even in a frying pan on your stovetop.</p>
-      <p>However you do it, make sure you have plenty of ventilation, as roasting coffee can produce a lot of smoke. If indoors, I recommend doing it under a strong range hood or next to a window with a box fan.</p>
-    </div>
-    <div>
-      <h2>Stages of Roasting</h2>
-      <table border="1px" width="500px">
-        <tr>
-          <th>Stage</th>
-          <th>Description</th>
-        </tr>
-        <tr>
-          <td>Green</td>
-          <td>Unroasted beans</td>
-        </tr>
-        <tr>
-          <td>Yellow</td>
-          <td>Beans are absorbing heat and starting to dry.</td>
-        </tr>
-        <tr>
-          <td>First Crack</td>
-          <td>Beans make a cracking sound and the sugars start to caramelize. Beans begin to darken to a light brown color. First stage at which beans can be considered done.</td>
-        </tr>
-        <tr>
-          <td>Light Roast</td>
-          <td>Beans darken slightly. Somewhat acidic.</td>
-        </tr>
-        <tr>
-          <td>Medium Roast</td>
-          <td>Beans darken to a slightly darker light brown. Starts to become sweeter.</td>
-        </tr>
-        <tr>
-          <td>City Roast</td>
-          <td>Medium brown color. Taste of the roast is noticeable.</td>
-        </tr>
-        <tr>
-          <td>Second Crack</td>
-          <td>Beans make a cracking sound again. The dividing line between medium and dark roasts. Also considered the line at which the unique flavors of the beans start to become overshadowed by the taste of the roast.</td>
-        </tr>
-        <tr>
-          <td>Dark Roast</td>
-          <td>Medium to dark brown color. Mostly tastes like the roast.</td>
-        </tr>
-        <tr>
-          <td>French Roast</td>
-          <td>Dark brown. Starts to taste burnt. All sugars are caramelized. Often shiny because the oil is pushed out.</td>
-        </tr>
-        <tr>
-          <td>Burnt</td>
-          <td>Black. Try again.</td>
-        </tr>
-      </table>
-      <p>Sources: <a href="https://www.sweetmarias.com/instructions">Sweet Maria's</a>, <a href="https://en.wikipedia.org/wiki/Coffee_roasting">Wikipedia Coffee Roasting</a></p>
-    </div>
+  <div id="container">
+    <header>
+      <a class="home" href="index.html">
+        <div>
+          <img id="icon" src="Photos/CoffeeCupIcon.png">
+          <h1>Greg's Coffee Site</h1>
+          <p>Information about coffee brewing and roasting.</p>
+        </div>
+      </a>
+    </header>
+    <main class="wrapper">
+      <h2>Coffee Roasting</h2>
+      <div class="wrapper">
+        <img src="Photos/Coffee_Beans_in_a_Cooling_Tray.JPG" alt="Roasting Coffee">
+        <p class="caption">Photo of coffee beans that are just finished roasting by <a href="https://commons.wikimedia.org/wiki/File:Coffee_Beans_in_a_Cooling_Tray.JPG">Jkafader</a>. <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">License</a></p>
+      </div>
+      <div>
+        <p>There are lots of ways to roast coffee, but all involve heating green beans until the sugars caramelize and potentially begin to burn. You can buy a commercial machine that is purpose-built for roasting or can do it in a hot air popcorn popper or even in a frying pan on your stovetop.</p>
+        <p>However you do it, make sure you have plenty of ventilation, as roasting coffee can produce a lot of smoke. If indoors, I recommend doing it under a strong range hood or next to a window with a box fan.</p>
+      </div>
+      <div>
+        <h3>Stages of Roasting</h3>
+        <table>
+          <tr>
+            <th>Stage</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>Green</td>
+            <td>Unroasted beans.</td>
+          </tr>
+          <tr>
+            <td>Yellow</td>
+            <td>Beans are absorbing heat and starting to dry.</td>
+          </tr>
+          <tr>
+            <td>First Crack</td>
+            <td>Beans make a cracking sound and the sugars start to caramelize. Beans begin to darken to a light brown color. First stage at which beans can be considered done.</td>
+          </tr>
+          <tr>
+            <td>Light Roast</td>
+            <td>Beans darken slightly. Somewhat acidic.</td>
+          </tr>
+          <tr>
+            <td>Medium Roast</td>
+            <td>Beans darken to a slightly darker light brown. Starts to become sweeter.</td>
+          </tr>
+          <tr>
+            <td>City Roast</td>
+            <td>Medium brown color. Taste of the roast is noticeable.</td>
+          </tr>
+          <tr>
+            <td>Second Crack</td>
+            <td>Beans make a cracking sound again. The dividing line between medium and dark roasts. Also considered the line at which the unique flavors of the beans start to become overshadowed by the taste of the roast.</td>
+          </tr>
+          <tr>
+            <td>Dark Roast</td>
+            <td>Medium to dark brown color. Mostly tastes like the roast.</td>
+          </tr>
+          <tr>
+            <td>French Roast</td>
+            <td>Dark brown. Starts to taste burnt. All sugars are caramelized. Often shiny because the oil is pushed out.</td>
+          </tr>
+          <tr>
+            <td>Burnt</td>
+            <td>Black. Try again.</td>
+          </tr>
+        </table>
+        <p class="caption">Sources: <a href="https://www.sweetmarias.com/instructions">Sweet Maria's</a>, <a href="https://en.wikipedia.org/wiki/Coffee_roasting">Wikipedia Coffee Roasting</a></p>
+      </div>
+    </main>
+    <footer>
+      <p>Written and maintained by Gregory Berns-Leone.</p>
+      <p><a href="mailto:gberns.l@gmail.com">Email me</a></p>
+    </footer>
   </div>
-  <footer>
-    <p>Written and maintained by Gregory Berns-Leone.</p>
-    <p><a href="mailto:gberns.l@gmail.com">Email me</a></p>
-  </footer>
 </body>
 </html>
