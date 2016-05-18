@@ -5,61 +5,71 @@
   <link rel="stylesheet" type="text/css" href="./styles/styles.css">
 </head>
 <body>
-  <header>  
-    <H1><a href="index.html">Greg's Coffee Site</a></H1>
-    <p>Information about coffee brewing and roasting.</p>
-  </header>
-  <div>
-    <h2>Brew Methods</h2>
-    <p><img src="Photos/Pouring.gif" alt="Pouring Coffee"><br>Finishing an aeropress by diluting</p>
-    <p>Brewing coffee is a process whereby coffee oils and other solids are extracted from the beans and left in liquid, usually water. Getting good results is a delicate balance between grind size, water temperature, and time extracting.</p>
-    <p>All production methods require:</p>
-    <ul>
-      <li>Coffee Beans and some way to grind them if unground</li>
-      <li>Water and way to heat it</li>
-      <li>A vessel to combine them</li>
-    </ul>
-    <p>Generally, as grind size decreases, either water temperature or time extracting should also decrease to keep coffee quality the same. The two methods won't necessarily taste the same, but this helps explain why a french press (with coarsely ground coffee) takes 4 minutes while an aeropress only takes 1 minute.</p>
-    <p>The keys to making excellent coffee are:</p>
-    <ol>
-      <li>Precision and accuracy in timing and measuring</li>
-      <li>Fresh beans</li>
-      <li>Clean, fresh water</li>
-    </ol>
-    <div>
-      <table border="1px">
-        <tr>
-          <th>Brew Method</th>
-          <th>Pros</th>
-          <th>Cons</th>
-        </tr>
-        <tr>
-          <td>Drip Machine</td>
-          <td>Little manual effort, consistent, makes a lot</td>
-          <td>Can't improve the machine</td>
-        </tr>
-        <tr>
-          <td>French Press</td>
-          <td>Velvety texture, full flavor</td>
-          <td>A bit more cleanup, dependent on grind</td>
-        </tr>
-        <tr>
-          <td>Aeropress</td>
-          <td>Clean bright cup, easily tweaked, easy cleanup, quick</td>
-          <td>Needs paper filter, single cup</td>
-        </tr>
-        <tr>
-          <td>Moka Pot</td>
-          <td>Concentrated, can be very fruity</td>
-          <td>Finicky, somewhat difficult cleanup</td>
-        </tr>
-      </table>
-    </div>
-    <p></p>
+  <div id="container">
+    <header>
+      <a class="home" href="index.html">
+        <div>
+          <img id="icon" src="Photos/CoffeeCupIcon.png">
+          <h1>Greg's Coffee Site</h1>
+          <p>Information about coffee brewing and roasting.</p>
+        </div>
+      </a>
+    </header>
+    <main class="wrapper">
+      <h2>Brew Methods</h2>
+      <div class="wrapper">
+        <img src="Photos/Pouring.gif" alt="Pouring Coffee">
+        <p class="caption">Finishing an aeropress by diluting</p>
+      </div>
+      <p>Brewing coffee is a process whereby coffee oils and other solids are extracted from the beans and left in liquid, usually water. Getting good results is a delicate balance between grind size, water temperature, and time extracting.</p>
+      <p>All production methods require:</p>
+      <ul>
+        <li>Coffee Beans and some way to grind them if unground</li>
+        <li>Water and way to heat it</li>
+        <li>A vessel to combine them</li>
+      </ul>
+      <p>Generally, as grind size decreases, either water temperature or time extracting should also decrease to keep coffee quality the same. The two methods won't necessarily taste the same, but this helps explain why a french press (with coarsely ground coffee) takes 4 minutes while an aeropress only takes 1 minute.</p>
+      <p>The keys to making excellent coffee are:</p>
+      <ol>
+        <li>Precision and accuracy in timing and measuring</li>
+        <li>Fresh beans</li>
+        <li>Clean, fresh water</li>
+      </ol>
+      <div>
+        <table>
+          <tr>
+            <th>Brew Method</th>
+            <th>Pros</th>
+            <th>Cons</th>
+          </tr>
+          <tr>
+            <td>Drip Machine</td>
+            <td>Little manual effort, consistent, makes a lot</td>
+            <td>Can't improve the machine</td>
+          </tr>
+          <tr>
+            <td>French Press</td>
+            <td>Velvety texture, full flavor</td>
+            <td>A bit more cleanup, dependent on grind</td>
+          </tr>
+          <tr>
+            <td>Aeropress</td>
+            <td>Clean bright cup, easily tweaked, easy cleanup, quick</td>
+            <td>Needs paper filter, single cup</td>
+          </tr>
+          <tr>
+            <td>Moka Pot</td>
+            <td>Concentrated, can be very fruity</td>
+            <td>Finicky, somewhat difficult cleanup</td>
+          </tr>
+        </table>
+      </div>
+      <p></p>
+    </main>
+    <footer>
+      <p>Written and maintained by Gregory Berns-Leone.</p>
+      <p><a href="mailto:gberns.l@gmail.com">Email me</a></p>
+    </footer>
   </div>
-  <footer>
-    <p>Written and maintained by Gregory Berns-Leone.</p>
-    <p><a href="mailto:gberns.l@gmail.com">Email me</a></p>
-  </footer>
 </body>
 </html>
