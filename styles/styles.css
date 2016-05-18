@@ -1,3 +1,131 @@
-body {
-  background-color: blue;
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #33251e;
+}
+
+a {
+  color: #33386b;
+}
+
+img {
+  width: 100%;
+}
+
+.caption {
+  text-align: center;
+}
+
+html {
+  font-family: "Helvetica";
+  margin: auto;
+  border: none;
+  background-color: #d1ae9c;
+}
+
+#container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0;
+
+  position: relative;
+}
+
+.wrapper {
+  padding: 10px 10px;
+}
+
+header {
+  display: block;
+  float: left;
+}
+
+#icon {
+  float: left;
+  width: initial;
+  height: 60px;
+  padding: 20px;
+}
+
+header > h1 {
+  float: left;
+  font-family: "Futura";
+  font-size: 24pt;
+  color: #33251e;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+header > p {
+  float: left;
+  font-family: "Futura";
+  color: #33251e;
+  font-size: 14pt;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+footer {
+  float: left;
+  display: block;
+  text-align: center;
+}
+
+footer > p {
+  float: left;
+  padding: 10px 10px;
+  font-family: "Futura";
+  font-size: 10pt;
+  color: #33251e;
+}
+
+a {
+  color: ;
+}
+
+nav {
+  float: left;
+  position: block;
+  text-align: center;
+  border-top: 2px solid #33251e;
+  border-bottom: 2px solid #33251e;
+
+}
+
+.navigation {
+  float: left;
+  width: 200px;
+  padding: 15px 0px;
+  margin: 0px;
+  color: #33251e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navigation:hover {
+  background-color: #33251e;
+  color: #d1ae9c;
+}
+
+main {
+  /*display: inline-block;*/
+  clear: left;
+  padding-top: 30px;
+}
+
+main p {
+  font-family: "New Baskerville" "Baskerville" serif;
+  font-size: 14pt;
+}
+
+main h2 {
+  font-family: "Futura";
+  padding-bottom: 5px;
+  font-size: 20pt;
+
 }
