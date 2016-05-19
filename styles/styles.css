@@ -254,7 +254,7 @@ main td:nth-child(1) {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) or {
   .img-wrapper {
     width: 100%;
     padding: 0px;
