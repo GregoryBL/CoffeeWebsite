@@ -8,13 +8,14 @@ p, h1, h2, h3, h4, h5, h6, li, td, th {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Futura";
+  font-family: "Futura", sans-serif;
   font-weight: lighter;
   clear: both;
 }
 
 p, li, td, th {
-  font-family: "Bodini" "New Baskerville" "Baskerville" serif;
+  font-family: "Bodoni", "New Baskerville", "Baskerville", serif;
+  letter-spacing: 0.3px;
 }
 
 li {
@@ -22,7 +23,7 @@ li {
 }
 
 a {
-  color: #897260 /* #33386b */;
+  color: #43475b;
 }
 
 .home {
@@ -42,7 +43,8 @@ img {
 html {
   margin: auto;
   border: none;
-  background-color: #d1ae9c;
+  background-image: url("../Photos/LatteArtCrop.png");
+  background-size: cover;
 }
 
 #container {
@@ -50,6 +52,7 @@ html {
   margin: 0 auto;
   text-align: left;
   padding: 0;
+  background-color: #d1ae9c;
 
   position: relative;
 }
@@ -66,7 +69,6 @@ html {
 
 header {
   display: block;
-  /*float: left;*/
   border-bottom: 2px solid #33251e;
   width: 100%;
 }
@@ -79,7 +81,6 @@ header {
 }
 
 header h1 {
-  /*float: left;*/
   font-size: 24pt;
   color: #33251e;
   padding-top: 10px;
@@ -89,7 +90,6 @@ header h1 {
 }
 
 header p {
-  /*float: left;*/
   font-family: "Futura";
   color: #33251e;
   font-size: 14pt;
@@ -102,27 +102,24 @@ header a {
 }
 
 footer {
-  float: left;
   display: block;
   text-align: center;
+  padding: 10px 10px;
 }
 
 footer > p {
-  float: left;
-  padding: 10px 10px;
+  display: inline-block;
+  padding: 0px 10px;
   font-family: "Futura";
   font-size: 10pt;
   color: #33251e;
 }
 
 nav {
-  /*float: left;*/
-  position: block;
   text-align: center;
   border-bottom: 2px solid #33251e;
   margin-bottom: 10px;
   width: 100%;
-  /*width: 600px;*/
 }
 
 nav:after {
@@ -136,7 +133,7 @@ nav:after {
 
 .navigation {
   float: left;
-  width: 33%;
+  width: 33.33%;
   padding: 10px 0px;
   margin: auto;
   color: #33251e;
@@ -160,6 +157,10 @@ main {
 main p {
   font-size: 14pt;
   margin-bottom: 10px;
+}
+
+main a:visited {
+  color: #897260;
 }
 
 main h2 {
@@ -254,15 +255,17 @@ main td:nth-child(1) {
   }
 }
 
-@media screen and (max-width: 320px) or {
+@media screen and (max-width: 320px) {
   .img-wrapper {
     width: 100%;
     padding: 0px;
   }
+
   header h1 {
     padding-left: 10px;
     padding-right: 10px;
   }
+
   header p {
     padding-left: 10px;
     padding-right: 10px;
