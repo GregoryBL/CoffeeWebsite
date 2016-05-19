@@ -9,6 +9,7 @@ p, h1, h2, h3, h4, h5, h6, li, td, th {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Futura";
+  font-weight: lighter;
 }
 
 p, li, td, th {
@@ -38,7 +39,6 @@ img {
 }
 
 html {
-  font-family: "Helvetica";
   margin: auto;
   border: none;
   background-color: #d1ae9c;
@@ -113,11 +113,15 @@ nav {
 .navigation {
   float: left;
   width: 200px;
-  padding: 15px 0px;
+  padding: 10px 0px;
   margin: 0px;
   color: #33251e;
   font-weight: bold;
   text-decoration: none;
+  font-family: "Futura";
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  font-size: 13pt;
 }
 
 .navigation:hover {
